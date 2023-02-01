@@ -3,9 +3,43 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
+    background-color: rgb(25, 33, 41);
+    color: rgb(255,255,255);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
 
 }
-
 #form-container {
     margin: auto;
+    width: 250px;
+    border: 2px solid rgb(67, 163, 230);
+    padding: 30px 10px;
+    line-height: 25px;
+    box-sizing: border-box;
+}
+#form-container div {
+    padding: 2%;
+}
+label {
+    margin-bottom: 1%;
+}
+
+#form-container input {
+    border: 1px solid rgb(67, 163, 230);
+    border-radius: 4px;
+}
+
+#form-container textarea {
+    border: 1px solid rgb(67, 163, 230);
+    border-radius: 4px;
+    width: 200px;
+}
+button {
+    background-color:rgb(67, 163, 230);
+    color: rgb(255,255,255);
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-style: none;
 }
